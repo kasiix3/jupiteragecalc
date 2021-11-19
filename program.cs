@@ -25,7 +25,8 @@ double newEarthAge = userAge + journeyToJupiter;
 double newJupiterAge = newEarthAge/jupiterYears;
 
       // Log calculations to console
-
+      Console.WriteLine(userAge);
+Console.WriteLine(newEarthAge);
 Console.WriteLine(newJupiterAge);
 
     }
